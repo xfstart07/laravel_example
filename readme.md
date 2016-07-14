@@ -30,6 +30,26 @@ resources 放 资源文件
 
     php artisan make:model User -m
 
+## Controller
+
+### 创建 controller
+
+    php artisan make:controller PhotosController
+
+## Assets 资源文件
+
+使用 gulp 来组织 Css 和 Javascript 文件
+
+### 打包静态文件
+
+    gulp --production
+
+### 监测静态文件的修改
+
+    gulp watch
+
+监测文件的同时,如果文件有修改,会生成 `.map` 后缀文件名, 如果不想生成可以设置关掉。
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).

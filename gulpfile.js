@@ -11,6 +11,11 @@ var elixir = require('laravel-elixir');
  |
  */
 
+elixir.config.sourcemaps = false;  // 关掉 source maps
 elixir(function(mix) {
     mix.sass('app.scss');
+
+    mix.copy('node_modules/jquery/dist/jquery.min.js', 'resources/assets/js/plugin/')
+
+    mix.browserify('app.js');
 });
