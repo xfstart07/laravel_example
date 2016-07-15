@@ -1,5 +1,7 @@
 # Laravel Example
 
+[Laravel 文档](http://laravel-china.org/docs/5.1/installation)
+
 ## 安装项目
 
 ### 安装 composer
