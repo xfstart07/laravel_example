@@ -32,9 +32,13 @@
 ## 目录结构
 
 app  放 Model 的地方
+
 bootstrap 放 引导程序
+
 config 放配置文件
+
 database 放 数据迁移 和 填充数据 的程序
+
 resources 放 资源文件
 
 ##  数据迁移
