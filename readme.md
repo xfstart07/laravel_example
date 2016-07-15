@@ -1,4 +1,33 @@
-# Laravel for blog
+# Laravel Example
+
+## 安装项目
+
+### 安装 composer
+
+    // 安装
+    php composer-setup.php --install-dir=bin --filename=composer
+
+    // 移到全局
+    mv composer.phar /usr/local/bin/composer
+
+[composer 文档](https://getcomposer.org/doc/00-intro.md)
+
+### 安装 Laravel
+
+    composer install
+
+安装路径 `vendor`
+
+### 配置 .env.example
+
+将 `.env.example` 重命名为 `.env`
+
+### 安装 NPM plugin
+
+    npm install
+
+
+# Laravel 笔记
 
 ## 目录结构
 
